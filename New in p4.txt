@@ -1,0 +1,109 @@
+;changes in p4 (see previous changelog.txt for all these updates and all previous p3.5 and prior updates)
+
+;general changes
+- Shield logic has been implemented! In Final War, the usage of this logic will fall into EuroCoal 'Shields' seen on ATOMOS units that function similar to Protoss shields from Starcraft 2. Undecided usage but likely intended usage as follows: Explosive Reactive Armor is a reusable damage absorbsion technology that can be attached to armored units to give it additional protection, but only for one shot. Junk armor functions similar to Explosive Reactive Armor, but does not ever respawn or regenerate.
+ - Shields are as follows and are referenced to unless unique:
+  - T1 shields offer a 75 HP shield that regenerates 5% every 0.08 ingame minutes (respawns at 12% every 1 ingame minute)
+  - T2 shields offer a 75 HP shield that regenerates 5% every 0.10 ingame minutes (respawns at 15% every 1 ingame minute)
+  - T3 shields offer a 75 HP shield that regenerates 5% every 0.12 ingame minutes (respawns at 20% every 1 ingame minute)
+  - T4 shields offer a 75 HP shield that regenerates 5% every 0.06 ingame minutes (respawns at 25% every 1 ingame minute)
+ - Explosive Reactive Armor has been implemented! ERA levels are as follows and are referenced to unless unique:
+  - T1 ERA offers 1 HP 'shield' that absorbs all damage dealt above the 'shield' HP that respawns once every 2 minutes
+  - T2 ERA offers 1 HP 'shield' that absorbs all damage dealt above the 'shield' HP that respawns once every 1.75 minutes
+  - T3 ERA offers 1 HP 'shield' that absorbs all damage dealt above the 'shield' HP that respawns once every 1.5 minutes
+ - Junk Armor has been implemented! Junk armor is a 1 HP 'shield' that absorbs all damage dealt above the 'shield' HP that only works once
+
+- Added several new resource tools, none of these are featured on any current maps and exist for mappers to use (there are labels for FA2):
+  - Hematite has been introduced to the project. A grey-like resource, this ore is refined for irons used in almost all production. This resource is worth the mid-way point between Ore and Gems, at 40 credits per 'bale' and a 30% slower generation and spread chance than normal ore. (Ore is worth 25/bale, Gems are worth 55/bale)
+  - Three new Ore drills have been added to the game with modified graphics indicating their purpose. ORETRE01-03 can be found under the  ORETRE01 is a normal ore drill, just with new graphics. ORETRE02 is an ore drill capable of generating resources 2 cells away from the drill and generates an additional patch of ore when it generates, and ORETRE03 is an ore drill capable of generating resources 2 cells away from the drill and generattes an additional 3 patches of ore when it generates.
+  - Three new Gem drills have been added with modified Ore drill graphics to indicate their purpose. GEMTRE01-03 can be found under the Terrrain objects, GEMTRE1 is a normal Ore drill that generates Gems instead, GEMTRE02 and GEMTRE03 are Gem versions of ORETRE02 and ORETRE03.
+
+- Added LaserTrails to several weapons and units throughout the project
+- Changed jumpjet units: T1-T3 jumpets gained a flat +100 health
+- Changed pad aircraft: fixed bug with missing +100 hp across the board from Alpha variant update
+- Added new civilian buildings: apartments, more euro village housing, billboards galore, currently do not have proper firing FLHs for occupants
+
+- Jumpjet aircraft (built from the War Factory) now can passively self-heal up to 75% health, after 20 second cooldown from taking damage
+- Descriptions were updated across the factions for better clarity, still an ongoing work for maximum quality
+
+;EuroCoal changes
+- Changed Ambush Tower: health increased to 600 from 300, damage increased to 30 from 20
+- Changed Squire: range increased to 6 from 5, health increased to 350 from 300, damage increased to 50 from 30
+- Changed Icarus: damage decreased from 125 to 100, effectivness against vehicles increased from 35/25/15% to 55/45/35% for L/M/H armors, given a cellspread of 3.25, with 50% damage at edge of explo
+- Changed Starstorm: health increased to 450 from 300, speed decreased to 18 from 20
+- Changed Winston: gained access to T4 shields
+- Changed Galapagos: health reduced to 1400 from 1800, gained a shield that offers 400 HP that regenerates 10% every 0.12 ingame minutes (respawns at 10% every .75 ingame minutes)
+
+;ATOMOS changes
+- Changed Archers: health reduced to 250 from 275, gained access to T1 shields
+- Changed Artificers: health reduced to 365 from 390, gained access to T2 shields
+- Changed Scapeshifts: health reduced to 275 from 300, gained access to T2 shields
+- Changed Aetherials: health reduced to 450 from 600, gained access to T3 shields
+- Changed Burton: health reduced to 350 from 400, gained access to T4 shields
+- Changed ECC Tanya: health reduced to 1500 from 1600, gained access to T4 shields
+
+;Crusaders changes
+- Changed Stormwave Tank: damage increased to 55 from 50, plasma cannon damage increased to 60 from 55
+- Changed Helios: health increased ot 450 from 300, speed decreased to 18 from 20
+- Changed Tsunami: gained access to T4 shields
+
+;Empire changes
+- Changed Bison: range increased to 6 from 5, health increased to 400 from 350, damage increased to 50 from 30
+- Changed Warmaster: ROF increased to 60 from 50, damage decreased to 35 from 39
+- Changed Hydra Gunship: armor increased from medium air to heavy air
+- Changed Black Hand: updated artwork (BoundaryHand/LoongRise mod/IcePelosi)
+- Changed Kirov Carrier: health reduced to 500 from 650
+
+;Militia changes
+- Changed Infernus: now returning as a faction-unique anti-infantry, replacing the Bolla
+- Changed Tauros: health decreased to 425 from 450, damage decreased to 28 from 30
+- Changed Maverick: health increased to 250 from 225
+- Changed Catalyst: removed from main arsenal
+- Added Chimera MLRS: gradually massive outpouring of missile unit to serve as T2 anti-building, replaces Catalyst
+- Changed Recruitment Center: now is a single build 3x3 structure, offers support powers and a passive infantry bonus
+  - First support power allows for a 3x3 area of Militia infantry to be 'promoted' to Pyroscripts every minutes
+  - Second support power allows for calling in a Guerilla Barracks, capable of training all T1-T3 infantry every 8 minutes
+  - Third support power grants access to a paradrop of Flak Crew
+  - Upon building a Recruitment Center, all Officers will be trained how to rally Militants and denoted with a special insignia
+- Changed Kirov Bomber: health increased to 600 from 500
+
+;Okhrana changes
+- Changed Mobile Armory: removed from main arsenal
+- Added Tesla Amplifier: repair tank available at T2 that can provide all armored Tesla units a 25% ROF increase, replaces Mobile Armory
+- Changed Solaris: now requires T3 tech structure
+- Changed Engineering Bay:
+  - Gained access to PsiClone paradrop, capable of calling 2 weaker variants of PsiCommandos to the battlefield
+  - Gained access to Ammo Dump, increasing your own unit speeds but destroying their weapons in the process
+
+;Legion changes
+- Changed Swarm Mine: now has a lifetime counter that will cause it to automatically detonate upon reaching 0 (full health death, countdown timer under healthbar)
+- Changed Acolyte: damage against air targets reduced to 35 from 45, damge against ground targets reduced to 30 from 40
+- Changed Scrapbike: range increased to 6.5 from 5, health increased to 300 from 275, damage increased to 45 from 30
+- Changed Raider: damaged reduced to 35 from 40, ROF decreased to 76 from 68, speed reduced to 22 from 25
+- Changed Scatttershot: health reduced from 425 to 375, armor reduced from medium to light, anti-infantry weapon and anti-building weapon now share the building weapon ROF
+- Changed Skirmisher: health reduced to 500 from 575, armor reduced to medium from heavy, removed second-stage weapon damage, damage reduced from 75 to 45, ROF increased to 65 from 55
+- Changed Scattershot: health reduced from 425 to 375, armor reduced from medium to light, 
+- Changed Swarm Hive: mine generation count reduced to 4 from 9, health reduced from 600 to 500, armor reduced to medium from heavy
+- Changed Rotgut: health increased to 600 from 500
+- Changed Scrapyard:
+  - Artwork updated but incomplete
+  - Gained access to Scrap Repair: global repair ability for all Legion vehicles
+
+;Contract changes
+- Changed Hammer Mobile Turret: requires Radar tier to construct now
+- Changed Warsmith: support powers are now immediately available when gaining AcheronTech access and remain locked to Warsmith SW firing radius of 15, Warsmith now no longer deploys so it may remain mobile supporting the battlefront, and no longer consumes the "support unit" role of each faction
+- Changed Warlords Contract: does not gain access to T1 anti-vehicle Vehicles due to Sidewinder at T1
+- Changed Angels Contract: does not gain access to T1 anti-vehicle Vehicles due to Overseer access at T1
+
+;Bugfixes
+- Multi-Missile Barrage now uses more appropriate EVA detected and ready alerts.
+- Ore bugs have been corrected from original base-game assets
+
+;Updates to credits in p4
+- McPwny for civilian apartment building set, UAMA building set
+- dmitry volkov t-666 and smxreaver for billboards
+- G-E for civilian building additions
+- IcePelosi / LoongRise project for the new Black Hand shp
+- 雷德克里莫 for the Militia Recruitment Center
+- Prime for Guerilla Barracks
+- Yuri_Prime, Salted_Old, Overwatch, bu7l00s, Zero18, DaFool, Kenosis for UAMA infantry and vehicle sprites

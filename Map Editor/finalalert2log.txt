@@ -1,0 +1,277 @@
+FinalAlert 2(tm) log file
+----------------------
+
+CFinalSunApp::CFinalSunApp() called
+
+
+
+CLoading::CLoading() called
+CFinalSunDlg::OnInitDialog() called
+Updating menu
+CLoading::Load() called
+
+Initializing FSunPackLib::XCC
+Initializing mix files
+InitMixFiles() called. Available memory: 2147483646
+Loading TibSun.mix success
+Loading local.mix successful
+Loading conquer.mix, temperat.mix, isotemp.mix, isosnow.mix, isourb.mix and cache.mix successful
+Searching C:\Westwood\fw\\Expandmix00.mix
+Searching C:\Westwood\fw\\Expandmix01.mix
+Searching C:\Westwood\fw\\Expandmix02.mix
+Searching C:\Westwood\fw\\Expandmix03.mix
+Searching C:\Westwood\fw\\Expandmix04.mix
+Searching C:\Westwood\fw\\Expandmix05.mix
+Searching C:\Westwood\fw\\Expandmix06.mix
+Searching C:\Westwood\fw\\Expandmix07.mix
+Searching C:\Westwood\fw\\Expandmix08.mix
+Searching C:\Westwood\fw\\Expandmix09.mix
+Searching C:\Westwood\fw\\Expandmix10.mix
+Searching C:\Westwood\fw\\Expandmix11.mix
+Searching C:\Westwood\fw\\Expandmix12.mix
+Searching C:\Westwood\fw\\Expandmix13.mix
+Searching C:\Westwood\fw\\Expandmix14.mix
+Searching C:\Westwood\fw\\Expandmix15.mix
+Searching C:\Westwood\fw\\Expandmix16.mix
+Searching C:\Westwood\fw\\Expandmix17.mix
+Searching C:\Westwood\fw\\Expandmix18.mix
+Searching C:\Westwood\fw\\Expandmix19.mix
+Searching C:\Westwood\fw\\Expandmix20.mix
+Searching C:\Westwood\fw\\Expandmix21.mix
+Searching C:\Westwood\fw\\Expandmix22.mix
+Searching C:\Westwood\fw\\Expandmix23.mix
+Searching C:\Westwood\fw\\Expandmix24.mix
+Searching C:\Westwood\fw\\Expandmix25.mix
+Searching C:\Westwood\fw\\Expandmix26.mix
+Searching C:\Westwood\fw\\Expandmix27.mix
+Searching C:\Westwood\fw\\Expandmix28.mix
+Searching C:\Westwood\fw\\Expandmix29.mix
+Searching C:\Westwood\fw\\Expandmix30.mix
+Searching C:\Westwood\fw\\Expandmix31.mix
+Searching C:\Westwood\fw\\Expandmix32.mix
+Searching C:\Westwood\fw\\Expandmix33.mix
+Searching C:\Westwood\fw\\Expandmix34.mix
+Searching C:\Westwood\fw\\Expandmix35.mix
+Searching C:\Westwood\fw\\Expandmix36.mix
+Searching C:\Westwood\fw\\Expandmix37.mix
+Searching C:\Westwood\fw\\Expandmix38.mix
+Searching C:\Westwood\fw\\Expandmix39.mix
+Searching C:\Westwood\fw\\Expandmix40.mix
+Searching C:\Westwood\fw\\Expandmix41.mix
+Searching C:\Westwood\fw\\Expandmix42.mix
+Searching C:\Westwood\fw\\Expandmix43.mix
+Searching C:\Westwood\fw\\Expandmix44.mix
+Searching C:\Westwood\fw\\Expandmix45.mix
+Searching C:\Westwood\fw\\Expandmix46.mix
+Searching C:\Westwood\fw\\Expandmix47.mix
+Searching C:\Westwood\fw\\Expandmix48.mix
+Searching C:\Westwood\fw\\Expandmix49.mix
+Searching C:\Westwood\fw\\Expandmix50.mix
+Searching C:\Westwood\fw\\Expandmix51.mix
+Searching C:\Westwood\fw\\Expandmix52.mix
+Searching C:\Westwood\fw\\Expandmix53.mix
+Searching C:\Westwood\fw\\Expandmix54.mix
+Searching C:\Westwood\fw\\Expandmix55.mix
+Searching C:\Westwood\fw\\Expandmix56.mix
+Searching C:\Westwood\fw\\Expandmix57.mix
+Searching C:\Westwood\fw\\Expandmix58.mix
+Searching C:\Westwood\fw\\Expandmix59.mix
+Searching C:\Westwood\fw\\Expandmix60.mix
+Searching C:\Westwood\fw\\Expandmix61.mix
+Searching C:\Westwood\fw\\Expandmix62.mix
+Searching C:\Westwood\fw\\Expandmix63.mix
+Searching C:\Westwood\fw\\Expandmix64.mix
+Searching C:\Westwood\fw\\Expandmix65.mix
+Searching C:\Westwood\fw\\Expandmix66.mix
+Searching C:\Westwood\fw\\Expandmix67.mix
+Searching C:\Westwood\fw\\Expandmix68.mix
+Searching C:\Westwood\fw\\Expandmix69.mix
+Searching C:\Westwood\fw\\Expandmix70.mix
+Searching C:\Westwood\fw\\Expandmix71.mix
+Searching C:\Westwood\fw\\Expandmix72.mix
+Searching C:\Westwood\fw\\Expandmix73.mix
+Searching C:\Westwood\fw\\Expandmix74.mix
+Searching C:\Westwood\fw\\Expandmix75.mix
+Searching C:\Westwood\fw\\Expandmix76.mix
+Searching C:\Westwood\fw\\Expandmix77.mix
+Searching C:\Westwood\fw\\Expandmix78.mix
+Searching C:\Westwood\fw\\Expandmix79.mix
+Searching C:\Westwood\fw\\Expandmix80.mix
+Searching C:\Westwood\fw\\Expandmix81.mix
+Searching C:\Westwood\fw\\Expandmix82.mix
+Searching C:\Westwood\fw\\Expandmix83.mix
+Searching C:\Westwood\fw\\Expandmix84.mix
+Searching C:\Westwood\fw\\Expandmix85.mix
+Searching C:\Westwood\fw\\Expandmix86.mix
+Searching C:\Westwood\fw\\Expandmix87.mix
+Searching C:\Westwood\fw\\Expandmix88.mix
+Searching C:\Westwood\fw\\Expandmix89.mix
+Searching C:\Westwood\fw\\Expandmix90.mix
+Searching C:\Westwood\fw\\Expandmix91.mix
+Searching C:\Westwood\fw\\Expandmix92.mix
+Searching C:\Westwood\fw\\Expandmix93.mix
+Searching C:\Westwood\fw\\Expandmix94.mix
+Searching C:\Westwood\fw\\Expandmix95.mix
+Searching C:\Westwood\fw\\Expandmix96.mix
+Searching C:\Westwood\fw\\Expandmix97.mix
+Searching C:\Westwood\fw\\Expandmix98.mix
+Searching C:\Westwood\fw\\Expandmix99.mix
+Searching C:\Westwood\fw\\ra2md.mix
+C:\Westwood\fw\\ra2md.mix found: loading conquer.mix, local.mix, snow.mix, generic.mix, urbann.mix, lunar.mix, desert.mix, isotemp.mix, isosnow.mix, isourb.mix, isoubn.mix, isolun.mix, isodes.mix, isoubn.mix, isolun.mix, isodes.mix, isogen.mix, ecache01md.mix, ubn.mix, lun.mix, des.mix, 
+C:\Westwood\fw\\expandmd01.mix found and loaded
+C:\Westwood\fw\\expandmd22.mix found and loaded
+C:\Westwood\fw\\expandmd25.mix found and loaded
+C:\Westwood\fw\\expandmd96.mix found and loaded
+C:\Westwood\fw\\expandmd97.mix found and loaded
+C:\Westwood\fw\\expandmd98.mix found and loaded
+C:\Westwood\fw\\expandmd99.mix found and loaded
+InitMixFiles() finished. Available memory: 2147483646
+Loading palettes
+
+LoadTSIni(rulesmd.ini,007EDDD8,0) called
+File found in TS directory (C:\Westwood\fw\)
+LoadTSIni(artmd.ini,007EDCA8,0) called
+File found in TS directory (C:\Westwood\fw\)
+LoadTSIni(Tutorial.ini,007ED960,0) called
+Tutorial.ini found 
+LoadTSIni(Sound99.ini,007EDA78,0) called
+LoadTSIni(Sound98.ini,007EDA78,0) called
+LoadTSIni(Sound97.ini,007EDA78,0) called
+LoadTSIni(Sound96.ini,007EDA78,0) called
+LoadTSIni(Sound95.ini,007EDA78,0) called
+LoadTSIni(Sound94.ini,007EDA78,0) called
+LoadTSIni(Sound93.ini,007EDA78,0) called
+LoadTSIni(Sound92.ini,007EDA78,0) called
+LoadTSIni(Sound91.ini,007EDA78,0) called
+LoadTSIni(Sound90.ini,007EDA78,0) called
+LoadTSIni(Sound89.ini,007EDA78,0) called
+LoadTSIni(Sound88.ini,007EDA78,0) called
+LoadTSIni(Sound87.ini,007EDA78,0) called
+LoadTSIni(Sound86.ini,007EDA78,0) called
+LoadTSIni(Sound85.ini,007EDA78,0) called
+LoadTSIni(Sound84.ini,007EDA78,0) called
+LoadTSIni(Sound83.ini,007EDA78,0) called
+LoadTSIni(Sound82.ini,007EDA78,0) called
+LoadTSIni(Sound81.ini,007EDA78,0) called
+LoadTSIni(Sound80.ini,007EDA78,0) called
+LoadTSIni(Sound79.ini,007EDA78,0) called
+LoadTSIni(Sound78.ini,007EDA78,0) called
+LoadTSIni(Sound77.ini,007EDA78,0) called
+LoadTSIni(Sound76.ini,007EDA78,0) called
+LoadTSIni(Sound75.ini,007EDA78,0) called
+LoadTSIni(Sound74.ini,007EDA78,0) called
+LoadTSIni(Sound73.ini,007EDA78,0) called
+LoadTSIni(Sound72.ini,007EDA78,0) called
+LoadTSIni(Sound71.ini,007EDA78,0) called
+LoadTSIni(Sound70.ini,007EDA78,0) called
+LoadTSIni(Sound69.ini,007EDA78,0) called
+LoadTSIni(Sound68.ini,007EDA78,0) called
+LoadTSIni(Sound67.ini,007EDA78,0) called
+LoadTSIni(Sound66.ini,007EDA78,0) called
+LoadTSIni(Sound65.ini,007EDA78,0) called
+LoadTSIni(Sound64.ini,007EDA78,0) called
+LoadTSIni(Sound63.ini,007EDA78,0) called
+LoadTSIni(Sound62.ini,007EDA78,0) called
+LoadTSIni(Sound61.ini,007EDA78,0) called
+LoadTSIni(Sound60.ini,007EDA78,0) called
+LoadTSIni(Sound59.ini,007EDA78,0) called
+LoadTSIni(Sound58.ini,007EDA78,0) called
+LoadTSIni(Sound57.ini,007EDA78,0) called
+LoadTSIni(Sound56.ini,007EDA78,0) called
+LoadTSIni(Sound55.ini,007EDA78,0) called
+LoadTSIni(Sound54.ini,007EDA78,0) called
+LoadTSIni(Sound53.ini,007EDA78,0) called
+LoadTSIni(Sound52.ini,007EDA78,0) called
+LoadTSIni(Sound51.ini,007EDA78,0) called
+LoadTSIni(Sound50.ini,007EDA78,0) called
+LoadTSIni(Sound49.ini,007EDA78,0) called
+LoadTSIni(Sound48.ini,007EDA78,0) called
+LoadTSIni(Sound47.ini,007EDA78,0) called
+LoadTSIni(Sound46.ini,007EDA78,0) called
+LoadTSIni(Sound45.ini,007EDA78,0) called
+LoadTSIni(Sound44.ini,007EDA78,0) called
+LoadTSIni(Sound43.ini,007EDA78,0) called
+LoadTSIni(Sound42.ini,007EDA78,0) called
+LoadTSIni(Sound41.ini,007EDA78,0) called
+LoadTSIni(Sound40.ini,007EDA78,0) called
+LoadTSIni(Sound39.ini,007EDA78,0) called
+LoadTSIni(Sound38.ini,007EDA78,0) called
+LoadTSIni(Sound37.ini,007EDA78,0) called
+LoadTSIni(Sound36.ini,007EDA78,0) called
+LoadTSIni(Sound35.ini,007EDA78,0) called
+LoadTSIni(Sound34.ini,007EDA78,0) called
+LoadTSIni(Sound33.ini,007EDA78,0) called
+LoadTSIni(Sound32.ini,007EDA78,0) called
+LoadTSIni(Sound31.ini,007EDA78,0) called
+LoadTSIni(Sound30.ini,007EDA78,0) called
+LoadTSIni(Sound29.ini,007EDA78,0) called
+LoadTSIni(Sound28.ini,007EDA78,0) called
+LoadTSIni(Sound27.ini,007EDA78,0) called
+LoadTSIni(Sound26.ini,007EDA78,0) called
+LoadTSIni(Sound25.ini,007EDA78,0) called
+LoadTSIni(Sound24.ini,007EDA78,0) called
+LoadTSIni(Sound23.ini,007EDA78,0) called
+LoadTSIni(Sound22.ini,007EDA78,0) called
+LoadTSIni(Sound21.ini,007EDA78,0) called
+LoadTSIni(Sound20.ini,007EDA78,0) called
+LoadTSIni(Sound19.ini,007EDA78,0) called
+LoadTSIni(Sound18.ini,007EDA78,0) called
+LoadTSIni(Sound17.ini,007EDA78,0) called
+LoadTSIni(Sound16.ini,007EDA78,0) called
+LoadTSIni(Sound15.ini,007EDA78,0) called
+LoadTSIni(Sound14.ini,007EDA78,0) called
+LoadTSIni(Sound13.ini,007EDA78,0) called
+LoadTSIni(Sound12.ini,007EDA78,0) called
+LoadTSIni(Sound11.ini,007EDA78,0) called
+LoadTSIni(Sound10.ini,007EDA78,0) called
+LoadTSIni(Sound09.ini,007EDA78,0) called
+LoadTSIni(Sound08.ini,007EDA78,0) called
+LoadTSIni(Sound07.ini,007EDA78,0) called
+LoadTSIni(Sound06.ini,007EDA78,0) called
+LoadTSIni(Sound05.ini,007EDA78,0) called
+LoadTSIni(Sound04.ini,007EDA78,0) called
+LoadTSIni(Sound03.ini,007EDA78,0) called
+LoadTSIni(Sound02.ini,007EDA78,0) called
+LoadTSIni(Sound01.ini,007EDA78,0) called
+LoadTSIni(soundmd.ini,007EDA78,0) called
+File found in TS directory (C:\Westwood\fw\)
+LoadTSIni(evamd.ini,007ED848,0) called
+File found in TS directory (C:\Westwood\fw\)
+LoadTSIni(thememd.ini,007ED730,0) called
+thememd.ini found 
+LoadTSIni(aimd.ini,007EDB90,0) called
+File found in TS directory (C:\Westwood\fw\)
+LoadTSIni(temperatmd.ini,007ED3E8,0) called
+temperatmd.ini found 
+LoadTSIni(snowmd.ini,007ED2D0,0) called
+snowmd.ini found 
+LoadTSIni(urbanmd.ini,007ED1B8,0) called
+urbanmd.ini found 
+LoadTSIni(urbann.ini,007ED0A0,0) called
+LoadTSIni(lunarmd.ini,007ECF88,0) called
+lunarmd.ini found 
+LoadTSIni(desertmd.ini,007ECE70,0) called
+desertmd.ini found 
+LoadStrings() executing
+
+
+DirectDrawCreate() will be called now
+DirectDrawCreate() successful
+
+Now querying the DirectX 7 or 6 interface
+QueryInterface() successful
+
+Now setting cooperative level
+SetCooperativeLevel() successful
+
+Creating primary surface
+Return code: 0
+CreateSurface() successful
+
+Creating backbuffer surface
+CreateSurface() successful
+
+Now creating clipper
+CreateClipper() successful
+
+CLoading::~CLoading finished. Available memory: 2147483646

@@ -1,0 +1,67 @@
+; Patch 2.3.1 changelog
+; all the following changes belong to the 2.3.1 update and hopefully improve the general playing experience
+; changes are as follows below
+
+;generic changes
+- Increased team delays for medium and easy (AI should send attack wave every 2 mins)
+- Increased hate delays for all difficulties (AI will pick enemies after 2 mins, 1 min, 30 secs E,M,H)
+- Decreased overall AI money multpliers (AI has significantly fewer mulitpliers to currency in lower difficulties)
+- Fixed extra blank time of day setting (bad comma)
+- Neutral Airport pad production bug fixed (Neutral Airport had invalid owners)
+- Players are now granted one free Refinery's worth of storage (6,250 credits) that cannot be destroyed and fills before destroyable Refineries.
+- Can climb to T2 before needing to utilize T1 units, players are only ready to engage around T3 and have no early game variation to gameplay
+  - Overall build speed reduced from .5 to .7 (this means it increased from 30sec to 42sec to build 1k cost item before any additional modifiers)
+  - Radar build speed increased by 25%
+  - Tech Centers (T3) cost increased from 1500 to 1750, build speed increased by 33%
+  - Other multipliers to building construction speed have been removed (this was a balance attempt at faster vehicle production)
+- NewUrban maps will no longer crash the map editor on creation or loading
+- Removed dummy buidings and Tech Nodes (MLRS Nodes, Anti-Armor Nodes, Expansion Nodes) from map editor due to unexplained crashes
+
+;EuroCoal changes
+- EuroCoal Galapagos passenger count reduced from 10 to 8
+- EuroCoal Temporal Array now has an appropriate sized radial indicator, increased radius of effect from 3 to 4
+- ATOMOS units should now repair under the War Factory repair radius (gave repair aura warhead PenetratesShield=yes)
+- Coalition Buzzards now have proper Alpha variants
+
+;Empire changes
+- Empire Flak Crew effectiveness against infantry to 75%/65%/55%/40% (no armor, light armor, heavy armor, hero infantry armor)
+- Empire Dragonwing area of effect reduced from 1.25 cells to .75 cells per explosion, reduced duration from 20 secs to 15 secs
+- Empire "Weld Armor" support power is now stackable
+- Militia Conscripts don't all select by Team Selection (Group= is not a tag, GroupAs typo)
+- Militia Guerilla HQ allows build radius (fixed even better this time)
+- Neutral and special units are able to be reverse engineered (wish we had CanBeReverseEngineered=no on countries)
+- Contract units can no longer be reverse engineered (secret and stolen tech are still reversible)
+- Okhrana Tesla Trooper and Jackal needs promotion infantry cameos (fixed, typo in art code)
+- Okhrana Jackal now uses proper veterancy pips
+
+;Legion changes
+- Legion Predafly now will fly by it's target and attack as opposed to stopping and firing, removed cell spread, decreased duration of chaos effect from 25sec to 15sec, health reduced from 325 to 300
+
+;UAMA changes
+- UAMA War Forge had some under-the-hood changes (documenting for future bug research purposes)
+- UAMA Netherius health reduced from 300 to 250 (slightly too tanky for it's armor type)
+- UAMA Cormorant Bomber Drone effectiveness against infantry reduced, effectiveness against vehicles increased (20% less damage against inf, 20% more damage versus veh)
+- UAMA Bustard and Cormorant Drones health reduced 25%, now have proper Alpha variants
+
+;Contract/Bonus changes
+- AcheronTech Havocs now use their undeployed weapons inside OpenTopped vehicles
+- AcheronTech Obliterator damage reduced from 60 to 40, size increased to 2, range reduced by 1, secondary stage damage reduced from 35 to 25, no longer use their two-stage weapon undeployed or inside transports
+- Warlords Hellfire Technical ammo recharge fixed (partial abandoned weapon revision)
+- Warlords Contract vehicles damage bonus decreased from 2.0 to 1.25, speed bonus decreased from 1.5 to 1.25, insignia updated (now we're just veteran stat bonuses) 
+- Warlords Contract vehicles all now require T3 to be accessed (now disabled immediately if you lose T3 or cancel contract)
+
+;laziness is real
+- UAMA AI Progress:
+  - Taskforces: 40
+  - TeamTypes: 83
+  - AITriggerTypes: 179
+
+
+
+;bugs still present in current version:
+- UAMA AI is incomplete, Infantry and defensive sections have been added. I still need to add vehicles, aircraft, and mixed team support.
+- EuroCoal Ore Purifier does not have any additional abilities or support powers.
+- Legion Scrapyard does not have damage frames, need to adjust details and re-render/convert.
+- UAMA Defensive structures do not have damage frames, need to make these.
+
+Enjoy playing and I'll see you next patch update!

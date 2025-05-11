@@ -1,0 +1,3 @@
+Any custom maps you made or downloaded should be placed in this directory. Custom maps need to have a .map extension. Extensions like .yrm, .mpr, .yro will not work with YR Red-Resurrection.
+
+If you'd like to submit your custom map to be included in the official YR Red-Resurrection map pool, join the discord at https://discord.gg/euzS5e7 and send them to OmegaBolt.

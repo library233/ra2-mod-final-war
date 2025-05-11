@@ -1,0 +1,9 @@
+2021-05-20 12:56:49.8076 Info: 
+#############################################
+2021-05-20 12:56:49.8328 Info: Reading map for size calculation: C:\Users\SMxReaver\Desktop\EastVsBest.map
+2021-05-20 12:57:04.5396 Info: 
+#############################################
+2021-05-20 12:57:04.5396 Info: Parsing map: C:\Users\SMxReaver\Desktop\EastVsBest.map
+2021-05-20 12:57:04.5446 Info: Map size (original): 100x75
+2021-05-20 12:57:04.7117 Info: Expected new map size: 120x95
+2021-05-20 12:57:04.8994 Info: Saving map file: C:\Users\SMxReaver\Desktop\EastVsBest.map

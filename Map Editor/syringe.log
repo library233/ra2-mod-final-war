@@ -1,0 +1,36 @@
+[01:59:39] Syringe 0.7.3.0
+[01:59:39] ===============
+
+[01:59:39] WinMain: arguments = ""FinalAlert2YR.dat""
+[01:59:39] WinMain: Trying to load executable file "FinalAlert2YR.dat"...
+
+[01:59:39] SyringeDebugger::RetrieveInfo: Retrieving info from the executable file...
+[01:59:39] SyringeDebugger::RetrieveInfo: Executable information successfully retrieved.
+[01:59:39] 	exe = FinalAlert2YR.dat
+[01:59:39] 	pImLoadLibrary = 0x005912CC
+[01:59:39] 	pImGetProcAddress = 0x005912F8
+[01:59:39] 	pcEntryPoint = 0x00537128
+[01:59:39] 	dwExeSize = 0x001F5000
+[01:59:39] 	dwExeCRC = 0xF81108F1
+[01:59:39] 	dwTimestamp = 0x3EDB6BD4
+
+[01:59:39] SyringeDebugger::RetrieveInfo: Opening FinalAlert2YR.dat to determine imports.
+[01:59:39] WinMain: SyringeDebugger::FindDLLs();
+
+[01:59:39] SyringeDebugger::FindDLLs: Recognized DLL: "FA2sp.dll"
+[01:59:39] SyringeDebugger::FindDLLs: Done (177 hooks added).
+
+[01:59:39] WinMain: SyringeDebugger::Run("");
+
+[01:59:39] SyringeDebugger::Run: Running process to debug. cmd = "FinalAlert2YR.dat "
+[01:59:39] SyringeDebugger::Run: Allocating 0x580 bytes...
+[01:59:39] SyringeDebugger::Run: pAlloc = 0x000C0000
+[01:59:39] SyringeDebugger::Run: Writing DLL loader & caller code...
+[01:59:39] SyringeDebugger::Run: pcLoadLibrary = 0x000C0000
+[01:59:39] SyringeDebugger::Run: Entering debug loop...
+[01:59:39] SyringeDebugger::HandleException: Finished retrieving proc addresses.
+[01:59:39] SyringeDebugger::HandleException: Creating code hooks.
+[01:59:43] SyringeDebugger::Run: Done with exit code 0 (0).
+
+[01:59:43] WinMain: SyringeDebugger::Run finished.
+[01:59:43] WinMain: Exiting on success.

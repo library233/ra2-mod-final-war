@@ -1,0 +1,126 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Conversion Profile Documentation - MapTool</title>
+</head>
+<body>
+<h1 id="conversion-profile-documentation">Conversion Profile Documentation</h1>
+<p>Conversion profiles used by MapTool are INI files (text-based configuration files) which determine what sort of changes to tile &amp; object data the tool should perform.</p>
+<p>Users unfamiliar with structure of INI files should use one of the pre-made profile INI files as a reference.</p>
+<h2 id="available-sections">Available Sections</h2>
+<h3 id="profiledata">ProfileData</h3>
+<h4 id="name">Name</h4>
+<p>Name displayed in the GUI for this profile.</p>
+<h4 id="description">Description</h4>
+<p>Description displayed in the GUI for this profile.</p>
+<h4 id="includefiles">IncludeFiles</h4>
+<p>A comma-separated list of filenames including file extensions to read from <em>same directory as the current conversion profile</em>. Contents of these files will be merged with the current one. This only works on one level, so trying to include files from already included files will fail.</p>
+<h4 id="applymapoptimization">ApplyMapOptimization</h4>
+<p>If set to yes/true, will ensure that on the saved map, section with name 'Basic' will be the first section and section with name 'Digest' will be the last. This potentially allows for game to find these particular sections marginally faster.</p>
+<h4 id="applymapcompress">ApplyMapCompress</h4>
+<p>If set to yes/true, no unnecessary white space is put on the saved map. This allows for map size to be marginally smaller.</p>
+<h3 id="theaterrules">TheaterRules</h3>
+<h4 id="applicabletheaters">ApplicableTheaters</h4>
+A comma-separated list of theater ID's which must match with one declared in a map for the tool to process it. Defaults to
+<pre>ApplicableTheaters=TEMPERATE,SNOW,URBAN,DESERT,NEWURBAN,LUNAR</pre> 
+<p>if a list is omitted.</p>
+<h3 id="newtheater">NewTheater</h3>
+<p>A single theater ID which is assigned on any processed maps.</p>
+<h3 id="tilerules">TileRules</h3>
+<p>A list of tile index conversion rules, each on it's own line with | as separator between source and destination value, as well as optional height override and sub-tile index override values.</p>
+<p>To assist in figuring out the numbers to use, MapTool can be run with command line parameter <em>-l</em> with a game theater configuration INI (such as temperat(md).ini) as input file to extract a listing of tiles and their tile indices to a plaintext output file.</p>
+<strong>Example #1:</strong>
+<pre>
+[TileRules]
+0-15|25-40
+</pre>
+
+<p>Tiles 0-15 will get converted to tiles 25-40, respectively, respecting the range declarations.</p>
+<strong>Example #2:</strong>
+<pre>
+[TileRules]
+0-15|25
+</pre>
+
+<p>This example should produce results identical with the first one.</p>
+<strong>Example #3:</strong>
+<pre>
+[TileRules]
+0-15|25-25
+</pre>
+
+<p>Using a range declaration with identical start and end points as destination forces all matching source tiles to be converted to that specific tile.</p>
+<strong>Example #4:</strong>
+<pre>
+[TileRules]
+0-15|25-40|1
+</pre>
+
+<p>Adding a third value overrides the height of all of the applicable tiles with specific value. Only values from 0 to 14 are respected, with values lower than 0 interpreted as 0, and values higher than 14 interpreted as 14.</p>
+<strong>Example #5:</strong>
+<pre>
+[TileRules]
+0-15|25-40|*|0
+</pre>
+
+<p>Fourth value serves as an override to tile's sub-tile index, serving to determine which particular piece of that tile is used for a map cell. It might be necessary to set the override to 0 if you are converting from tiles with more than one sub-tile to a tile with just one.</p>
+<p>Also worth noting is that if you declare sub-tile index override, you must also declare height override before it. Substituting the value with * retains the original height values in processed maps.</p>
+<h3 id="overlayrules">OverlayRules</h3>
+<p>A list of overlay ID conversion rules, each on it's own line with a | as a separator between source and destination value.</p>
+<strong>Example:</strong>
+<pre>
+[OverlayRules]
+0|5
+</pre>
+
+<p>All overlays with ID 0 are converted to overlays with ID 5.</p>
+<p>Values from 0 to 254 are available for regular use. Using 255 as destination ID will remove overlays. Using 255 as source ID is not valid and results in the conversion rule being ignored.</p>
+<h3 id="objectrules">ObjectRules</h3>
+<p>A list of object ID conversion rules, each on it's own line with a | as a separator between source and destination value.</p>
+<strong>Example #1:</strong>
+<pre>
+[ObjectRules]
+GACNST|YACNST
+</pre>
+<p>Will convert any objects, be it Infantry, Building, Aircraft, Vehicle or Terrain, with ID GACNST on the processed maps to an object of same type with ID YACNST.</p>
+<strong>Example #2:</strong>
+<pre>
+[ObjectRules]
+GACNST
+</pre>
+<p>Will remove any objects, be it Infantry, Building, Aircraft, Vehicle or Terrain, with ID GACNST on the processed maps.</p>
+<h3 id="sectionrules">SectionRules</h3>
+<p>A list of section name, keys and values conversion rules, each on it's own line with | as a separator between section name, key and value information.</p>
+<strong>Example #1:</strong>
+<pre>
+[SectionRules]
+Basic|Official|no
+</pre>
+<p>Sets the value for key 'Official' under section 'Basic' to 'no'.</p>
+<strong>Example #2:</strong>
+<pre>
+[SectionRules]
+Basic|Official=
+</pre>
+<p>Removes key 'Official' under section 'Basic'.</p>
+<strong>Example #3:</strong>
+<pre>
+[SectionRules]
+Basic=
+</pre>
+<p>Removes section 'Basic' altogether.</p>
+<strong>Example #4:</strong>
+<pre>
+[SectionRules]
+Basic=NotSoBasic|Official=Unofficial|Yes
+</pre>
+<p>Changes name of section 'Basic' to 'NotSoBasic', name of key 'Official' under said section to 'Unofficial' and it's value to 'Yes'.</p>
+<strong>Example #5:</strong>
+<pre>
+[SectionRules]
+Basic|Official|$GETVAL(SpecialFlags,DestroyableBridges)
+</pre>
+<p>Sets the value of key 'Official' under section 'Basic' to the value of key 'DestroyableBridges' under section 'SpecialFlags'.</p>
+</body>
+</html>
